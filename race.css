@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: whitesmoke;
+}
+.box {
+  margin: 40px auto;
+  padding: 10px;
+  background: linear-gradient(to right, rgb(3, 88, 88) 50%, white 50%);
+  width: 700px;
+  height: 400px;
+  color: white;
+  position: relative;
+}
+.sch {
+  color: rgb(3, 88, 88);
+}
+.flex {
+  display: flex;
+}
+.flex > div {
+  text-transform: capitalize;
+  font-size: 14px;
+  margin: 12px;
+}
+div.race {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-right: 80px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.the {
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  line-height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gen {
+  padding-left: 20px;
+}
+.flexx {
+  display: flex;
+  justify-items: flex-start;
+}
+.flexx > div {
+  text-transform: capitalize;
+  padding-right: 50px;
+}
+.now {
+  width: 100px;
+  background-color: rgb(7, 107, 107);
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+  text-transform: capitalize;
+  text-align: center;
+}
+div.racers {
+  position: absolute;
+  color: black;
+  right: 0px;
+  bottom: 100px;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  font-size: 22px;
+}
+
+span {
+  color: rgb(173, 165, 165) !important;
+}

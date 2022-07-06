@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <style>
+      html,
+      body {
+        background-color: aqua;
+        color: red;
+        font-size: 100px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: cursive;
+      }
+      .container {
+        margin-top: 200px;
+      }
+    </style>
+    <body>
+      <div class="container"></div>
+      <script>
+        var container = document.querySelector(".container");
+        var word = ["i", "miss", "coding", "for", "real"];
+        var color = ["red", "blue", "green", "brown", "orange"];
+        var i = 0;
+        container.innerHTML = word[i];
+        container.style.color = color[i];
+        function change() {
+          i++;
+          if (i >= word.length) {
+            i = 0;
+          }
+          container.innerHTML = word[i];
+          container.style.color = color[i];
+        }
+        setInterval(change, 800);
+      </script>
+    </body>
+  </head>
+</html>

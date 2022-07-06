@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>practice original</title>
+    <style>
+      body {
+        height: 100%;
+        font-family: sans-serif;
+        line-height: 30px;
+      }
+      .body {
+        margin: 0px 500px;
+        background-color: whitesmoke;
+        color: rgb(37, 37, 88);
+        width: 1400px;
+        position: relative;
+      }
+      .wrapper {
+        width: 1200px;
+        height: 400px;
+        padding: 20px 100px 100px;
+        background-image: url(practiceorg.jpg);
+        background-repeat: no-repeat;
+        background-size: 1400px;
+        border-bottom-left-radius: 50px;
+        color: tomato;
+        text-align: center;
+      }
+      .flex {
+        display: flex;
+        text-transform: capitalize;
+        font-size: 16px;
+      }
+      .flex > div {
+        margin-top: 20px;
+      }
+      .flexone {
+        display: flex;
+        gap: 20px;
+      }
+      .blogr {
+        font-weight: bold;
+        font-size: 36px;
+        margin-top: -5px;
+      }
+      .flextwo {
+        display: flex;
+        margin-left: auto;
+        gap: 20px;
+      }
+      .sign {
+        background: white;
+        padding: 10px 20px;
+        border-radius: 50px;
+        margin-top: -5px;
+      }
+      .head {
+        font-size: 50px;
+        font-weight: bold;
+        margin: 120px auto 20px;
+        text-align: center;
+      }
+      .buttons {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        margin: 40px auto;
+        gap: 20px;
+      }
+      .button {
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 30px;
+      }
+      .one {
+        background-color: tomato;
+        color: white;
+      }
+      .two {
+        border: 1px solid tomato;
+      }
+      .head2 {
+        font-size: 40px;
+        text-align: center;
+        margin: 100px auto 100px;
+        font-weight: bold;
+      }
+      .grid1 {
+        display: grid;
+        margin-left: 150px;
+        gap: 100px;
+        grid-template-columns: 1fr 1fr;
+        font-size: 18px;
+        margin-bottom: 200px;
+      }
+      .grid2 {
+        display: grid;
+        margin-right: 150px;
+        gap: 100px;
+        grid-template-columns: 1fr 1fr;
+        font-size: 18px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+      }
+      .shead {
+        font-size: 28px;
+        margin-bottom: 30px;
+        font-weight: bold;
+      }
+      .leftup {
+        margin-bottom: 50px;
+      }
+      #image {
+        height: 400px;
+        width: 550px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
+      #image3 {
+        height: 400px;
+        width: 550px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+      }
+      .right1 {
+        text-align: right;
+      }
+      .middle {
+        background-color: rgb(24, 24, 51);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        padding: 100px 90px 80px;
+        font-size: 20px;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+      }
+      .ghead {
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+      #img1,
+      #img2 {
+        height: 330px;
+      }
+      #img1 {
+        position: absolute;
+        margin-top: -350px;
+        margin-left: 100px;
+      }
+      #img2 {
+        position: absolute;
+        margin-top: -300px;
+        margin-left: 350px;
+      }
+      #laptop{
+        height: 400px;
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body">
+      <div class="wrapper">
+        <div class="flex">
+          <div class="flexone">
+            <div class="blogr">Blogr</div>
+            <div>product</div>
+            <div>company</div>
+            <div>connect</div>
+          </div>
+          <div class="flextwo">
+            <div>login</div>
+            <div class="sign">sign up</div>
+          </div>
+        </div>
+        <div class="head">A modern publishing platform</div>
+        <div class="wbody">Grow your audience and build your online brand</div>
+        <div class="buttons">
+          <div class="button one">Start for Free</div>
+          <div class="button two">Learn More</div>
+        </div>
+      </div>
+      <div class="head2">Designed for the future</div>
+      <div class="grid1">
+        <div class="left1">
+          <div class="leftup">
+            <div class="shead">Introducing an extensible editor</div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              facere veritatis a minima natus eos praesentium quaerat, nulla
+              aliquam omnis?Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Voluptatum accusantium similique odit illum? Perspiciatis
+              alias possimus quaerat similique sunt id.
+            </div>
+          </div>
+          <div class="leftdown">
+            <div class="shead">Robust content management</div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              ipsam neque eaque, molestias exercitationem quisquam?Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit. Ullam deleniti optio
+              tempore necessitatibus ea accusantium hic.
+            </div>
+          </div>
+        </div>
+        <div class="right1"><img src="left2.jpg" id="image" /></div>
+      </div>
+      <div class="middle">
+        <div class="side1"></div>
+        <div class="side2">
+          <div class="ghead">State of the Art Infrastructure</div>
+          <div class="gbody">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dicta,
+            ea rem saepe, magni, repellendus corrupti quia laboriosam iste culpa
+            natus aliquam! Lorem ipsum dolor sit amet consectetur, adipisicing
+            Lorem ipsum dolor sit amet. elit.
+          </div>
+        </div>
+      </div>
+      <div class="image1"><img src="phone.png" id="img1" /></div>
+      <div class="image2"><img src="phone.png" id="img2" /></div>
+      <div class="grid2">
+        <div class="image3">
+          <img src="laptop.jpg" id="laptop" />
+        </div>
+        <div class="words">
+          <div class="leftup">
+            <div class="shead">Free, open, simple</div>
+            <div>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Sapiente, maiores minus? Tempora corporis maxime autem quaerat
+              soluta eaque reprehenderit, molestias voluptatibus cum harum sequi
+              quasi inventore voluptates ducimus?
+            </div>
+          </div>
+      
+        <div class="leftdown">
+          <div class="shead">Powerful tooling</div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            assumenda, placeat, minima temporibus eaque rerum voluptate incidunt
+            voluptatem unde, excepturi adipisci magni eos.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

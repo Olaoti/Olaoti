@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>newimage</title>
+    <style>
+      body {
+        background-color: black;
+        color: rgb(185, 181, 181);
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        margin: 200px;
+        background-color: rgb(29, 21, 63);
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .wrapper {
+        padding: 60px;
+        text-align: left;
+      }
+      #image {
+        height: 450px;
+        width: 550px;
+        border-top-right-radius: 5px;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      .head {
+        font-size: 40px;
+        margin-bottom: 30px;
+        color: white;
+      }
+      span {
+        color: blueviolet;
+      }
+      .smallgrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-transform: uppercase;
+        margin-top: 70px;
+      }
+      .smallhead {
+        font-size: 20px;
+        font-weight: bolder;
+      }
+      .smallbody {
+        font-size: 14px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="head bold">
+          Get <span>insights</span> that help your business grow.
+        </div>
+        <div class="body">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </div>
+        <div class="smallgrid">
+          <div>
+            <div class="smallhead">10k+</div>
+            <div class="smallbody">companies</div>
+          </div>
+          <div>
+            <div class="smallhead">314</div>
+            <div class="smallbody">templates</div>
+          </div>
+          <div>
+            <div class="smallhead">12m+</div>
+            <div class="smallbody">queries</div>
+          </div>
+        </div>
+      </div>
+      <div class="image">
+        <img src="newimage.png" id="image" />
+      </div>
+    </div>
+  </body>
+</html>
